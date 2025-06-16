@@ -1,0 +1,11 @@
+.idea
+ideas.txt
+venv
+.venv
+__pycache__
+.DS_Store
+saves/save_data.json
+output/
+dist/
+build/
+*.spec

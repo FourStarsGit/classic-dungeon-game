@@ -1,0 +1,10 @@
+[project]
+name = "pythongame"
+main = "main.py"
+
+[meta]
+fullscreen = false
+
+
+[build]
+modules = ["src"]
