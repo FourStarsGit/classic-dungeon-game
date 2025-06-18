@@ -19,7 +19,7 @@ layout = [
 
 pre_dialog = Dialog([
     TextBox("queen lily", "Un nouvel ennemi surpuissant va se dresser devant vous !"),
-    TextBox("queen lily", "Il s'agit d'un serpent que vous connaissez bien ! C'est le PYTHON !"),
+    TextBox("queen lily", "Il s'agit d'un grand serpent ! C'est le PYTHON !"),
     TextBox("queen lily", "Faites attention à sa couleur ! S'il est vert, alors il est vulnérable."),
     TextBox("queen lily", "S'il est rouge, fuyez pour ne pas perdre de points de vie !")
 ], st.MAP_SURFACE)

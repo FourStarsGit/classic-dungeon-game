@@ -25,7 +25,7 @@ class EndingMenu:
             {"text": "Félicitations !", "font": self.font_large},
             {"text": "Tu as intégralement\nterminé le jeu !", "font": self.font_medium},
             {"text": "Tu gagnes : .................", "font": self.font_medium},
-            {"text": "<<TEXTE PERSONNALISÉE>>", "font": self.font_medium},
+            {"text": "<<TEXTE PERSONNALISÉ>>", "font": self.font_medium},
             {"text": "<3", "font": self.font_medium}
         ]
         self.current_screen = 0

@@ -76,7 +76,7 @@ async def main():
                                 password_input += event.unicode
                 
                 # Draw password prompt
-                text = st.FONT_25.render("Mot de pass : " + "*" * len(password_input), True, (255, 255, 255))
+                text = st.FONT_25.render("Mot de passe : " + "*" * len(password_input), True, (255, 255, 255))
                 text_rect = text.get_rect(center=(st.SCREEN_WIDTH // 2, st.SCREEN_HEIGHT // 2))
                 st.SCREEN.blit(background, (0, 0))
                 st.SCREEN.blit(text, text_rect)

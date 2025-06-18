@@ -103,12 +103,12 @@ class Boss(pygame.sprite.Sprite):
             color = (255, 0, 0)  # Red in attack mode
         pygame.draw.rect(self.screen, color, self.rect)
 
-class CapitaineFracasse(Boss):
+class CaptainFracasse(Boss):
     def __init__(self, x, y, screen):
         super().__init__(x, y, screen)
 
     def spawn(self):
-        sprite = sprites.CAPITAINE_FRACASSE.copy()
+        sprite = sprites.CAPTAIN_FRACASSE.copy()
         if self.being_hit:
             pass
         elif self.is_vulnerable:

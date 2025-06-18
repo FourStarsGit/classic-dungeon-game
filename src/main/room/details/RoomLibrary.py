@@ -19,8 +19,8 @@ dialog = Dialog([
     TextBox("narrateur", "En ce beau matin de l'an 1123, la PRINCESSE réalisait une petite sieste."), 
     TextBox("narrateur", "Soudain, elle fut réveillée par sa fidèle acolyte, QUEEN LILY."),
     TextBox("queen lily", "PRINCESSE ! PRINCESSE ! Vite, réveillez-vous, c'est une catastrophe !!!"),
-    TextBox("queen lily", "Le PRINCE a été enlevé !! Les méchants PAPIERS ADMINISTRATIFS l'ont capturé durant son court sommeil !"),
-    TextBox("queen lily", "Vous devez absolument allez la sauver !! Elle saura vous récompenser comme il se doit !"),
+    TextBox("queen lily", "Le PRINCE a été enlevé !! Les méchants PAPIERS ADMINISTRATIFS l'ont capturé durant son sommeil !"),
+    TextBox("queen lily", "Vous devez absolument allez le sauver !! Il saura vous récompenser comme il se doit !"),
     TextBox("queen lily", "Vous rappelez-vous comment sortir du lit, en vous délivrant de Morphée ?"),
     TextBox("queen lily", "Utilisez les flèches directionnelles ↑ ↓ ← → pour vous déplacer.")
 ], st.MAP_SURFACE)

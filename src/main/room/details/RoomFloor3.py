@@ -18,7 +18,7 @@ layout = [
 ]
 
 dialog = Dialog([
-    TextBox("queen lily", "Bravo ! Tu progresses très rapidement dans la TOUR !"),
-    TextBox("queen lily", "Ici, il n'y a pas d'ennemis mais uniquement une MYSTÉRIEUSE BOITE. Essaye de la frapper pour voir ce qu'il va se passer !")
+    TextBox("queen lily", "Bravo ! Vous progressez très rapidement dans la TOUR !"),
+    TextBox("queen lily", "Ici, il n'y a pas d'ennemis mais uniquement une MYSTÉRIEUSE BOITE. Essayez de la frapper pour voir ce qu'il va se passer !")
 ], st.MAP_SURFACE)
 RoomFloor3 = Room("Le test", layout, st.MAP_SURFACE, pre_dialog=dialog)

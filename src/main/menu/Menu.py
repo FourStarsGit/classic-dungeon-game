@@ -38,7 +38,7 @@ class Menu:
         self.intro_screens = [
             {"text": "Bienvenue", "duration": 3000, "font": self.font_large},
             {"text": "Ce jeu vidéo a été\nspécialement créé pour toi...", "duration": 5000, "font": self.font_medium},
-            {"text": "...afin de te souhaiter un \n<<TEXTE PERSONNALISÉE>>", "duration": 5000, "font": self.font_medium},
+            {"text": "...afin de te souhaiter un \n<<TEXTE PERSONNALISÉ>>", "duration": 5000, "font": self.font_medium},
         ]
         self.current_screen = 0
         self.screen_timer = 0

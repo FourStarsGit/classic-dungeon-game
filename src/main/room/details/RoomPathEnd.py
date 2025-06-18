@@ -1,4 +1,4 @@
-from src.main.Boss import CapitaineFracasse
+from src.main.Boss import CaptainFracasse
 from src.main.dialogs.TextBox import TextBox
 from src.main.dialogs.Dialog import Dialog
 from src.main.room.Room import Room
@@ -18,7 +18,7 @@ layout = [
 ]
 
 pre_dialog = Dialog([
-    TextBox("queen lily", "Nous arrivons bientôt à la tour où est détenue le PRINCE !"),
+    TextBox("queen lily", "Nous arrivons bientôt à la tour où est détenu le PRINCE !"),
     TextBox("queen lily", "Cependant, le CAPITAINE FRACASSE en garde l'entrée ! Vous devez le battre !"),
     TextBox("fracasse", "C'est moi qui ai la CLÉ DE DAME GINETTE qui ouvre l'entrée de la tour ! Mais tu ne l'auras jamais !"),
     TextBox("queen lily", "Pour vaincre le CAPITAINE FRACASSE : faites attention à sa couleur ! S'il est vert, alors il est vulnérable."),
@@ -39,5 +39,5 @@ RoomPathEnd = Room("Le capitaine",
     background_color=st.SNOW_COLOR, 
     pre_dialog=pre_dialog, 
     post_dialog=post_dialog,
-    boss=CapitaineFracasse(st.SCREEN_WIDTH // 2, st.SCREEN_HEIGHT // 2, st.SCREEN),
+    boss=CaptainFracasse(st.SCREEN_WIDTH // 2, st.SCREEN_HEIGHT // 2, st.SCREEN),
     music=st.SPYRO_EPIC_SOUND)
